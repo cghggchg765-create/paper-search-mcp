@@ -20,8 +20,10 @@ description: "学术论文搜索与校园网机构访问。搜索 arXiv、PubMed
 
 | 服务器 | 功能 | 路径 |
 |--------|------|------|
-| paper-search | arXiv/PubMed 搜索 | `F:/deskop/mcp/run_paper_search_mcp.py` |
-| campus-access | 校园网机构访问 | `F:/deskop/mcp/campus_mcp_server.py` |
+| paper-search | arXiv/PubMed 搜索 | `run_paper_search_mcp.py` |
+| campus-access | 校园网机构访问 | `campus_mcp_server.py` |
+
+**注意**: 路径相对于仓库根目录，配置时需使用绝对路径。
 
 ## 常见错误自动修复
 
@@ -31,7 +33,7 @@ description: "学术论文搜索与校园网机构访问。搜索 arXiv、PubMed
 
 **原因**: 未使用虚拟环境的 Python
 
-**自动修复**: 使用 `F:/deskop/mcp/venv/Scripts/python.exe` 而非系统 Python
+**自动修复**: 使用虚拟环境的 Python: `venv/Scripts/python.exe` (Windows) 或 `venv/bin/python` (Linux/macOS)
 
 ### 错误 2: UnicodeDecodeError (GBK)
 
@@ -161,26 +163,28 @@ digraph paper_search {
 ## 环境要求
 
 - Python 3.10+
-- 虚拟环境: `F:/deskop/mcp/venv`
+- 虚拟环境: `venv/`
 - 已安装包: `paper-search-mcp`, `mcp`, `requests`, `httpx`
 
 ## 配置文件
 
-MCP 配置位于 `F:/deskop/mcp/claude_settings.json`:
+MCP 配置示例（添加到 Claude Code 设置文件）:
 
 ```json
 {
   "mcpServers": {
     "paper-search": {
-      "command": "F:/deskop/mcp/venv/Scripts/python.exe",
-      "args": ["F:/deskop/mcp/run_paper_search_mcp.py"],
-      "env": {"PAPER_SEARCH_MCP_UNPAYWALL_EMAIL": "..."}
+      "command": "/path/to/paper-search-mcp/venv/Scripts/python.exe",
+      "args": ["/path/to/paper-search-mcp/run_paper_search_mcp.py"],
+      "env": {"PAPER_SEARCH_MCP_UNPAYWALL_EMAIL": "your-email@example.com"}
     },
     "campus-access": {
-      "command": "F:/deskop/mcp/venv/Scripts/python.exe",
-      "args": ["F:/deskop/mcp/campus_mcp_server.py"],
+      "command": "/path/to/paper-search-mcp/venv/Scripts/python.exe",
+      "args": ["/path/to/paper-search-mcp/campus_mcp_server.py"],
       "env": {"CAMPUS_INSTITUTION": "neu"}
     }
   }
 }
 ```
+
+将 `/path/to/paper-search-mcp/` 替换为实际安装路径。

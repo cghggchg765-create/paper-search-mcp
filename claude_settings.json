@@ -1,15 +1,15 @@
 {
   "mcpServers": {
     "paper-search": {
-      "command": "F:/deskop/mcp/venv/Scripts/python.exe",
-      "args": ["F:/deskop/mcp/run_paper_search_mcp.py"],
+      "command": "/path/to/paper-search-mcp/venv/Scripts/python.exe",
+      "args": ["/path/to/paper-search-mcp/run_paper_search_mcp.py"],
       "env": {
-        "PAPER_SEARCH_MCP_UNPAYWALL_EMAIL": "cghggchg765@gmail.com"
+        "PAPER_SEARCH_MCP_UNPAYWALL_EMAIL": "your-email@example.com"
       }
     },
     "campus-access": {
-      "command": "F:/deskop/mcp/venv/Scripts/python.exe",
-      "args": ["F:/deskop/mcp/campus_mcp_server.py"],
+      "command": "/path/to/paper-search-mcp/venv/Scripts/python.exe",
+      "args": ["/path/to/paper-search-mcp/campus_mcp_server.py"],
       "env": {
         "CAMPUS_INSTITUTION": "neu"
       }
