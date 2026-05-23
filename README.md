@@ -93,57 +93,40 @@ pip install paper-search-mcp mcp requests httpx
 
 ### 支持的机构
 
+共支持 **79 所高校**，所有域名均经过验证。
+
 #### 39所985高校
 
-| 标识符 | 机构 | 域名 |
-|--------|------|------|
-| `pku` | 北京大学 | pku.edu.cn |
-| `tsinghua` | 清华大学 | tsinghua.edu.cn |
-| `fudan` | 复旦大学 | fudan.edu.cn |
-| `sjtu` | 上海交通大学 | sjtu.edu.cn |
-| `zju` | 浙江大学 | zju.edu.cn |
-| `ustc` | 中国科学技术大学 | ustc.edu.cn |
-| `nju` | 南京大学 | nju.edu.cn |
-| `hit` | 哈尔滨工业大学 | hit.edu.cn |
-| `buaa` | 北京航空航天大学 | buaa.edu.cn |
-| `neu` | 东北大学 | neu.edu.cn |
-| `tju` | 天津大学 | tju.edu.cn |
-| `nankai` | 南开大学 | nankai.edu.cn |
-| `dlut` | 大连理工大学 | dlut.edu.cn |
-| `jlu` | 吉林大学 | jlu.edu.cn |
-| `tongji` | 同济大学 | tongji.edu.cn |
-| `seu` | 东南大学 | seu.edu.cn |
-| `xmu` | 厦门大学 | xmu.edu.cn |
-| `sdust` | 山东大学 | sdust.edu.cn |
-| `ouc` | 中国海洋大学 | ouc.edu.cn |
-| `whu` | 武汉大学 | whu.edu.cn |
-| `hust` | 华中科技大学 | hust.edu.cn |
-| `csu` | 中南大学 | csu.edu.cn |
-| `scut` | 华南理工大学 | scut.edu.cn |
-| `sysu` | 中山大学 | sysu.edu.cn |
-| `uestc` | 电子科技大学 | uestc.edu.cn |
-| `cqu` | 重庆大学 | cqu.edu.cn |
-| `xjtu` | 西安交通大学 | xjtu.edu.cn |
-| `nwpu` | 西北工业大学 | nwpu.edu.cn |
-| `nwsuaf` | 西北农林科技大学 | nwsuaf.edu.cn |
-| `lzu` | 兰州大学 | lzu.edu.cn |
-| `bnu` | 北京师范大学 | bnu.edu.cn |
-| `ruc` | 中国人民大学 | ruc.edu.cn |
-| `bju` | 北京理工大学 | bju.edu.cn |
-| `cau` | 中国农业大学 | cau.edu.cn |
-| `cuc` | 中央民族大学 | cuc.edu.cn |
-| `nwu` | 西北大学 | nwu.edu.cn |
-| `nudt` | 国防科技大学 | nudt.edu.cn |
-| `hnu` | 湖南大学 | hnu.edu.cn |
-| `ccnu` | 华中师范大学 | ccnu.edu.cn |
+| 标识符 | 机构 | 标识符 | 机构 |
+|--------|------|--------|------|
+| `pku` | 北京大学 | `tsinghua` | 清华大学 |
+| `fudan` | 复旦大学 | `sjtu` | 上海交通大学 |
+| `zju` | 浙江大学 | `ustc` | 中国科学技术大学 |
+| `nju` | 南京大学 | `hit` | 哈尔滨工业大学 |
+| `buaa` | 北京航空航天大学 | `neu` | 东北大学 |
+| `tju` | 天津大学 | `nankai` | 南开大学 |
+| `dlut` | 大连理工大学 | `jlu` | 吉林大学 |
+| `tongji` | 同济大学 | `seu` | 东南大学 |
+| `xmu` | 厦门大学 | `sdu` | 山东大学 |
+| `ouc` | 中国海洋大学 | `whu` | 武汉大学 |
+| `hust` | 华中科技大学 | `csu` | 中南大学 |
+| `scut` | 华南理工大学 | `sysu` | 中山大学 |
+| `uestc` | 电子科技大学 | `cqu` | 重庆大学 |
+| `xjtu` | 西安交通大学 | `nwpu` | 西北工业大学 |
+| `nwsuaf` | 西北农林科技大学 | `lzu` | 兰州大学 |
+| `bnu` | 北京师范大学 | `ruc` | 中国人民大学 |
+| `bit` | 北京理工大学 | `cau` | 中国农业大学 |
+| `muc` | 中央民族大学 | `nwu` | 西北大学 |
+| `nudt` | 国防科技大学 | `hnu` | 湖南大学 |
+| `ccnu` | 华中师范大学 | | |
 
-#### 其他重点院校（211等）
+#### 重点211高校（32所）
 
 | 标识符 | 机构 | 标识符 | 机构 |
 |--------|------|--------|------|
 | `bjtu` | 北京交通大学 | `bupt` | 北京邮电大学 |
 | `cug` | 中国地质大学 | `cumt` | 中国矿业大学 |
-| `hohai` | 河海大学 | `njau` | 南京农业大学 |
+| `hhu` | 河海大学 | `njau` | 南京农业大学 |
 | `nuaa` | 南京航空航天大学 | `njust` | 南京理工大学 |
 | `nuist` | 南京信息工程大学 | `scu` | 四川大学 |
 | `swjtu` | 西南交通大学 | `swufe` | 西南财经大学 |
@@ -152,11 +135,13 @@ pip install paper-search-mcp mcp requests httpx
 | `ecnu` | 华东师范大学 | `suda` | 苏州大学 |
 | `whut` | 武汉理工大学 | `hdu` | 杭州电子科技大学 |
 | `zstu` | 浙江理工大学 | `cqupt` | 重庆邮电大学 |
-| `fzu` | 福州大学 | `hqu` | 华侨大学 |
+| `jiangnan` | 江南大学 | `fzu` | 福州大学 |
+| `hqu` | 华侨大学 | `ncu` | 南昌大学 |
 | `gxu` | 广西大学 | `ynu` | 云南大学 |
 | `gzu` | 贵州大学 | `xju` | 新疆大学 |
+| `imu` | 内蒙古大学 | `nxu` | 宁夏大学 |
 
-#### 港澳台地区高校
+#### 港澳台高校（8所）
 
 | 标识符 | 机构 | 域名 |
 |--------|------|------|
@@ -167,10 +152,7 @@ pip install paper-search-mcp mcp requests httpx
 | `polyu` | 香港理工大学 | polyu.edu.hk |
 | `hkbu` | 香港浸会大学 | hkbu.edu.hk |
 | `umac` | 澳门大学 | um.edu.mo |
-| `must` | 澳门科技大学 | must.edu.mo |
 | `ntu` | 台湾大学 | ntu.edu.tw |
-| `nthu` | 台湾清华大学 | nthu.edu.tw |
-| `ncku` | 台湾成功大学 | ncku.edu.tw |
 
 > **提示**: 如果你的学校不在列表中，可以编辑 `campus_access_tool.py` 中的 `INSTITUTION_DOMAINS` 字典添加。
 

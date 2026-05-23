@@ -110,63 +110,19 @@ AI: [调用 check_campus_connection 工具]
 
 ## 支持的机构
 
+共支持 **79 所高校**，所有域名均经过验证。
+
 ### 39所985高校
 
-| 机构 | 标识符 | 域名 |
-|------|--------|------|
-| 北京大学 | pku | pku.edu.cn |
-| 清华大学 | tsinghua | tsinghua.edu.cn |
-| 复旦大学 | fudan | fudan.edu.cn |
-| 上海交通大学 | sjtu | sjtu.edu.cn |
-| 浙江大学 | zju | zju.edu.cn |
-| 中国科学技术大学 | ustc | ustc.edu.cn |
-| 南京大学 | nju | nju.edu.cn |
-| 哈尔滨工业大学 | hit | hit.edu.cn |
-| 北京航空航天大学 | buaa | buaa.edu.cn |
-| 东北大学 | neu | neu.edu.cn |
-| 天津大学 | tju | tju.edu.cn |
-| 南开大学 | nankai | nankai.edu.cn |
-| 大连理工大学 | dlut | dlut.edu.cn |
-| 吉林大学 | jlu | jlu.edu.cn |
-| 同济大学 | tongji | tongji.edu.cn |
-| 东南大学 | seu | seu.edu.cn |
-| 厦门大学 | xmu | xmu.edu.cn |
-| 山东大学 | sdust | sdust.edu.cn |
-| 中国海洋大学 | ouc | ouc.edu.cn |
-| 武汉大学 | whu | whu.edu.cn |
-| 华中科技大学 | hust | hust.edu.cn |
-| 中南大学 | csu | csu.edu.cn |
-| 华南理工大学 | scut | scut.edu.cn |
-| 中山大学 | sysu | sysu.edu.cn |
-| 电子科技大学 | uestc | uestc.edu.cn |
-| 重庆大学 | cqu | cqu.edu.cn |
-| 西安交通大学 | xjtu | xjtu.edu.cn |
-| 西北工业大学 | nwpu | nwpu.edu.cn |
-| 西北农林科技大学 | nwsuaf | nwsuaf.edu.cn |
-| 兰州大学 | lzu | lzu.edu.cn |
-| 北京师范大学 | bnu | bnu.edu.cn |
-| 中国人民大学 | ruc | ruc.edu.cn |
-| 北京理工大学 | bju | bju.edu.cn |
-| 中国农业大学 | cau | cau.edu.cn |
-| 中央民族大学 | cuc | cuc.edu.cn |
-| 西北大学 | nwu | nwu.edu.cn |
-| 国防科技大学 | nudt | nudt.edu.cn |
-| 湖南大学 | hnu | hnu.edu.cn |
-| 华中师范大学 | ccnu | ccnu.edu.cn |
+北京大学(pku)、清华大学(tsinghua)、复旦大学(fudan)、上海交通大学(sjtu)、浙江大学(zju)、中国科学技术大学(ustc)、南京大学(nju)、哈尔滨工业大学(hit)、北京航空航天大学(buaa)、东北大学(neu)、天津大学(tju)、南开大学(nankai)、大连理工大学(dlut)、吉林大学(jlu)、同济大学(tongji)、东南大学(seu)、厦门大学(xmu)、山东大学(sdu)、中国海洋大学(ouc)、武汉大学(whu)、华中科技大学(hust)、中南大学(csu)、华南理工大学(scut)、中山大学(sysu)、电子科技大学(uestc)、重庆大学(cqu)、西安交通大学(xjtu)、西北工业大学(nwpu)、西北农林科技大学(nwsuaf)、兰州大学(lzu)、北京师范大学(bnu)、中国人民大学(ruc)、北京理工大学(bit)、中国农业大学(cau)、中央民族大学(muc)、西北大学(nwu)、国防科技大学(nudt)、湖南大学(hnu)、华中师范大学(ccnu)。
 
-### 其他重点院校
+### 重点211高校（32所）
 
-包括：北京交通大学、北京邮电大学、中国地质大学、中国矿业大学、河海大学、南京农业大学、南京航空航天大学、南京理工大学、深圳大学、华东理工大学、上海大学、华东师范大学、苏州大学、武汉理工大学、杭州电子科技大学等 50+ 所院校。
+北京交通大学、北京邮电大学、中国地质大学、中国矿业大学、河海大学、南京农业大学、南京航空航天大学、南京理工大学、南京信息工程大学、四川大学、西南交通大学、西南财经大学、深圳大学、广东工业大学、华东理工大学、上海大学、华东师范大学、苏州大学、武汉理工大学、杭州电子科技大学、浙江理工大学、重庆邮电大学、江南大学、福州大学、华侨大学、南昌大学、广西大学、云南大学、贵州大学、新疆大学、内蒙古大学、宁夏大学。
 
-### 港澳台地区
+### 港澳台高校（8所）
 
-| 机构 | 标识符 |
-|------|--------|
-| 香港大学 | hku |
-| 香港科技大学 | usthk |
-| 香港中文大学 | cuhk |
-| 澳门大学 | umac |
-| 台湾大学 | ntu |
+香港大学(hku)、香港科技大学(usthk)、香港中文大学(cuhk)、香港城市大学(cityu)、香港理工大学(polyu)、香港浸会大学(hkbu)、澳门大学(umac)、台湾大学(ntu)。
 
 ## 执行流程
 
