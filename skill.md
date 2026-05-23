@@ -110,18 +110,63 @@ AI: [调用 check_campus_connection 工具]
 
 ## 支持的机构
 
+### 39所985高校
+
 | 机构 | 标识符 | 域名 |
 |------|--------|------|
-| 东北大学 | neu | neu.edu.cn |
-| 清华大学 | tsinghua | tsinghua.edu.cn |
 | 北京大学 | pku | pku.edu.cn |
-| 上海交大 | sjtu | sjtu.edu.cn |
+| 清华大学 | tsinghua | tsinghua.edu.cn |
 | 复旦大学 | fudan | fudan.edu.cn |
+| 上海交通大学 | sjtu | sjtu.edu.cn |
 | 浙江大学 | zju | zju.edu.cn |
-| 中科大 | ustc | ustc.edu.cn |
-| 哈工大 | hit | hit.edu.cn |
-| 北航 | buaa | buaa.edu.cn |
+| 中国科学技术大学 | ustc | ustc.edu.cn |
 | 南京大学 | nju | nju.edu.cn |
+| 哈尔滨工业大学 | hit | hit.edu.cn |
+| 北京航空航天大学 | buaa | buaa.edu.cn |
+| 东北大学 | neu | neu.edu.cn |
+| 天津大学 | tju | tju.edu.cn |
+| 南开大学 | nankai | nankai.edu.cn |
+| 大连理工大学 | dlut | dlut.edu.cn |
+| 吉林大学 | jlu | jlu.edu.cn |
+| 同济大学 | tongji | tongji.edu.cn |
+| 东南大学 | seu | seu.edu.cn |
+| 厦门大学 | xmu | xmu.edu.cn |
+| 山东大学 | sdust | sdust.edu.cn |
+| 中国海洋大学 | ouc | ouc.edu.cn |
+| 武汉大学 | whu | whu.edu.cn |
+| 华中科技大学 | hust | hust.edu.cn |
+| 中南大学 | csu | csu.edu.cn |
+| 华南理工大学 | scut | scut.edu.cn |
+| 中山大学 | sysu | sysu.edu.cn |
+| 电子科技大学 | uestc | uestc.edu.cn |
+| 重庆大学 | cqu | cqu.edu.cn |
+| 西安交通大学 | xjtu | xjtu.edu.cn |
+| 西北工业大学 | nwpu | nwpu.edu.cn |
+| 西北农林科技大学 | nwsuaf | nwsuaf.edu.cn |
+| 兰州大学 | lzu | lzu.edu.cn |
+| 北京师范大学 | bnu | bnu.edu.cn |
+| 中国人民大学 | ruc | ruc.edu.cn |
+| 北京理工大学 | bju | bju.edu.cn |
+| 中国农业大学 | cau | cau.edu.cn |
+| 中央民族大学 | cuc | cuc.edu.cn |
+| 西北大学 | nwu | nwu.edu.cn |
+| 国防科技大学 | nudt | nudt.edu.cn |
+| 湖南大学 | hnu | hnu.edu.cn |
+| 华中师范大学 | ccnu | ccnu.edu.cn |
+
+### 其他重点院校
+
+包括：北京交通大学、北京邮电大学、中国地质大学、中国矿业大学、河海大学、南京农业大学、南京航空航天大学、南京理工大学、深圳大学、华东理工大学、上海大学、华东师范大学、苏州大学、武汉理工大学、杭州电子科技大学等 50+ 所院校。
+
+### 港澳台地区
+
+| 机构 | 标识符 |
+|------|--------|
+| 香港大学 | hku |
+| 香港科技大学 | usthk |
+| 香港中文大学 | cuhk |
+| 澳门大学 | umac |
+| 台湾大学 | ntu |
 
 ## 执行流程
 
